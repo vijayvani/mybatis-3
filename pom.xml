@@ -284,7 +284,8 @@
       <version>1.14.3</version>
       <scope>test</scope>
     </dependency>
-  </dependencies>
+
+</dependencies>
 
   <build>
     <plugins>
