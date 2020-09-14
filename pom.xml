@@ -107,12 +107,9 @@
       <email>neuberg@m-atelier.cz</email>
     </contributor>
   </contributors>
-
   <scm>
-    <url>http://github.com/mybatis/mybatis-3</url>
-    <connection>scm:git:ssh://github.com/mybatis/mybatis-3.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/mybatis/mybatis-3.git</developerConnection>
-    <tag>HEAD</tag>
+    <url>https://vijayvani@github.com/vijayvani/mybatis-3.git</url>
+    <connection>scm:git:https://vijayvani@github.com/vijayvani/mybatis-3.git</connection>
   </scm>
   <issueManagement>
     <system>GitHub Issue Management</system>
@@ -142,6 +139,11 @@
 
     <!-- Remove after parent 32 (support for jdk 13on) -->
     <jacoco.version>0.8.5</jacoco.version>
+
+    <sonar.projectKey>vijayvani_mybatis-3</sonar.projectKey>
+    <sonar.organization>vijayvani</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
   </properties>
 
   <dependencies>
@@ -200,7 +202,7 @@
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-engine</artifactId>
-      <version>5.7.0</version>
+      <version>5.6.2</version>
       <scope>test</scope>
     </dependency>
     <dependency>
